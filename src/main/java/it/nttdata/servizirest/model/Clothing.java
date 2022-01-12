@@ -12,6 +12,7 @@ public class Clothing {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     Integer id;
+
     String type;
     String shelf;
 
