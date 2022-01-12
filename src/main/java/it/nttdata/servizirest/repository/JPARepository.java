@@ -11,6 +11,7 @@ import java.util.Optional;
 //ogni volta che facciamo un nuovo repository lo aggiungiamo qui
 @Service
 @RequiredArgsConstructor
+
 public class JPARepository {
 
     private final ColourRepository colourRepository;
